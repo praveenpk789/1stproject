@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+    padding:0;
+    
+}
+
+.container{
+    color: white;
+    width:100%;
+    margin:auto;
+    overflow:hidden;
+}
+ul{
+    margin: 0;
+    padding:0;
+}
+header{
+    background:#35424a;
+    color:#ffffff;
+    padding-top:30px;
+    min-height:70px;
+    border-bottom:#ff5100;
+    border-bottom-width: 4px;
+    border-bottom-style:solid; 
+    letter-spacing:8px;
+}
+header a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+header li{
+    float: right;
+    display: inline;
+    padding:15px;
+    padding-bottom:20px;
+}
+a:hover{
+    color:lightcoral;
+}
+a:active{
+    background-color:lightblue;
+}  
+a:visited{
+    background-color:lightsalmon;
+}
+
+header ul{
+    padding-bottom: 20px;
+}
+.brand_name h2{
+    margin-left:20px;
+}
+header h2{
+    margin:0;
+}
+#main{
+    background: url(img/back3.jpg);
+    background-size:1520px;
+    min-height: 600px;
+    background-repeat:none;
+    
+    text-align: center;
+}
+
+.main h2{
+    padding-top:20px;
+    margin: 0;
+    color:#35424a;
+
+}
+.main p{
+    margin:0;
+   
+}
+.header h2{
+    font-family: 'Times New Roman', Times, serif;
+    color:whitesmoke;
+    font-size:200%;
+    letter-spacing:10px;
+    text-decoration-line: underline;
+    line-height: 60px;
+    padding-bottom:5%;
+
+}
+.para p{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 150%;
+        word-spacing:10px;
+}
+.right{
+    float: right;
+    padding-right:25%;
+}
+.right h3{
+    text-decoration-style: solid;
+    color: white;
+    font-size: 25px;
+    border: 0;
+    margin: 0;
+    line-height: 90px;
+    text-decoration:underline;
+    
+
+}
+.right p{
+    text-decoration-style: solid;
+    color: white;
+    font-size: 25px;
+    border: 0;
+    margin: 0;
+
+}
+.input{
+    padding-top: 10%;
+    line-height: 40px;
+    
+}
+.form input{
+    size: 50px;
+    border-radius: 0.7;
+
+background: transparent;
+}
+footer{
+    background:#35424a;
+    text-align: center;
+    font-weight: bold;
+    font-size: 200;
+    color:whitesmoke;
+    margin:0;
+    padding:0;
+   border: 0;
+    
+    
+}
+
+footer p{
+     margin:0;
+     padding: 20px;
+}

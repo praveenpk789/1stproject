@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding:0;
+    
+}
+.container{
+    color: white;
+    width:100%;
+    margin:auto;
+    overflow:hidden;
+}
+ul{
+    margin: 0;
+    padding:0;
+}
+header{
+    background:#35424a;
+    color:#ffffff;
+    padding-top:30px;
+    min-height:70px;
+    border-bottom:#ff5100;
+    border-bottom-width: 4px;
+    border-bottom-style:solid; 
+    letter-spacing:8px;
+}
+header a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+header li{
+    float:right;
+    display: inline;
+    padding:15px;
+    padding-bottom:20px;
+}
+a:hover{
+    color:lightcoral;
+}
+a:active{
+    background-color: lightgreen;
+}  
+a:visited{
+    background-color:lightsalmon;
+}
+
+header ul{
+    padding-bottom: 20px;
+}
+.brand_name h2{
+    margin-left:20px;
+}
+header h2{
+    margin:0;
+}
