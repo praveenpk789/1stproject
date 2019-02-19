@@ -103,8 +103,6 @@ header h2{
     margin: 0;
     line-height: 90px;
     text-decoration:underline;
-    
-
 }
 .right p{
     text-decoration-style: solid;
@@ -116,14 +114,17 @@ header h2{
 }
 .input{
     padding-top: 10%;
-    line-height: 40px;
-    
+    line-height: 40px; 
 }
-.form input{
+.form input,textarea{
     size: 50px;
-    border-radius: 0.7;
-
+    padding: 8px 14px;
+    border:1px solid;
+    outline: none;
+    margin:0 5px;
+    color: white;
 background: transparent;
+
 }
 footer{
     background:#35424a;
@@ -134,8 +135,6 @@ footer{
     margin:0;
     padding:0;
    border: 0;
-    
-    
 }
 
 footer p{
